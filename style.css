@@ -5,14 +5,16 @@
 }
 
 body {
-    padding: 2rem;
     background-color: black;
     color: white;
+    background-image: url(./images/bg.jpg);
 }
 
 h1 {
     text-align: center;
     margin-bottom: 1rem;
+    background-color: black;
+    padding: 0.5rem;
 }
 
 #currency1,
@@ -46,9 +48,6 @@ input[type="number"]::-webkit-outer-spin-button {
     margin: 0;
 }
 
-
-
-
 #amount {
     background-color: #3d90d7;
 }
@@ -66,7 +65,6 @@ select {
 }
 
 .card {
-    background-image: url(./images/bg.jpg);
     display: flex;
     flex-direction: column;
     padding: 5rem;
